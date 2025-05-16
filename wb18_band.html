@@ -1,0 +1,323 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Band</title>
+<meta name="generator" content="WYSIWYG Web Builder 20 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&400,700&subset=latin&display=swap" rel="stylesheet">
+<link href="css/band.css" rel="stylesheet">
+<link href="css/wb18_band.css" rel="stylesheet">
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/jquery.ui.effect.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/affix.min.js"></script>
+<script src="js/scrollspy.min.js"></script>
+<script src="js/wwb20.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(event)
+{
+   var elementwelcome_carousel = document.querySelector('#welcome-carousel');
+   elementwelcome_carousel.addEventListener('slid.bs.carousel', function(e)
+   {
+      switch(e.to)
+      {
+         case 0:
+            AnimateCss('wb_welcome-text1', 'slide-left-in', 300, 1000);
+            AnimateCss('wb_welcome-text2', 'slide-right-in', 1000, 1000);
+            AnimateCss('welcome-button1', 'slide-down-in', 2000, 1000);
+            break;
+         case 1:
+            AnimateCss('wb_welcome-text3', 'slide-left-in', 300, 1000);
+            AnimateCss('wb_welcome-text4', 'slide-right-in', 1000, 1000);
+            AnimateCss('welcome-button2', 'slide-down-in', 2000, 1000);
+            break;
+         case 2:
+            AnimateCss('wb_welcome-text5', 'slide-left-in', 300, 1000);
+            AnimateCss('wb_welcome-text6', 'slide-right-in', 1000, 1000);
+            AnimateCss('welcome-button3', 'slide-down-in', 2000, 1000);
+            break;
+      }
+   });
+   var welcome_carousel = new bootstrap.Carousel('#welcome-carousel', {interval: 6000, pause: false});
+});
+</script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#header']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#layoutGridWelcome']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_layoutGridWelcome').offset().top-68 }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#layoutGridBand']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_layoutGridBand').offset().top }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#layoutGridTour']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_layoutGridTour').offset().top }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#firstStepsLayoutGrid']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_firstStepsLayoutGrid').offset().top-68 }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#contact']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_contact').offset().top }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#links']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_links').offset().top-68 }, 600, 'easeOutCirc');
+   });
+});
+</script>
+
+</head>
+<body data-bs-spy="scroll">
+<div id="wb_header">
+<div id="header">
+<div class="row">
+<div class="col-1">
+<div id="wb_CssMenu5" style="display:block;width:100%;z-index:0;">
+<ul id="CssMenu5" role="menubar" class="nav">
+<li role="menuitem" class="nav-item firstmain"><a class="nav-link CssMenu5-effect" href="./wb18_band.html#layoutGridWelcome" target="_self">Home</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link CssMenu5-effect" href="#layoutGridBand" target="_self">Services</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link CssMenu5-effect" href="#layoutGridTour" target="_self">Events</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link CssMenu5-effect" href="#contact" target="_self">Contact</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link CssMenu5-effect" href="#layoutGridPerformance" target="_self">Media</a>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_layoutGridWelcome">
+<div id="layoutGridWelcome-overlay"></div>
+<div id="layoutGridWelcome">
+<div class="col-1">
+<div id="wb_welcome-carousel" style="">
+<div id="welcome-carousel" class="carousel slide" data-bs-ride="carousel">
+<ol class="carousel-indicators">
+<li data-bs-target="#welcome-carousel" data-bs-slide-to="0" class="active"></li>
+<li data-bs-target="#welcome-carousel" data-bs-slide-to="1"></li>
+<li data-bs-target="#welcome-carousel" data-bs-slide-to="2"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item frame-1 active">
+<div class="carousel-item-inner">
+<div id="wb_welcome-text2">
+<p style="font-family:Open Sans;line-height:46px;"><span style="font-family:Calibri;font-weight:bold;">DJ RShah</span></p>
+</div>
+<div id="wb_welcome-text1">
+<p style="font-size:24px;line-height:34.5px;"><span style="font-size:16px;line-height:23px;">Bringing the Beat to Life</span></p>
+</div>
+</div>
+</div>
+<div class="carousel-item frame-2">
+<div class="carousel-item-inner">
+<div id="wb_welcome-text4">
+<p style="font-family:Open Sans;font-size:27px;line-height:38.5px;font-weight:bold;"><span style="font-family:Calibri;font-size:32px;line-height:39px;">DJ RShah</span></p>
+</div>
+<div id="wb_welcome-text3">
+<p style="font-size:21px;line-height:31px;"><span style="font-size:16px;line-height:23px;">Bringing the Beat to Life</span></p>
+</div>
+</div>
+</div>
+<div class="carousel-item frame-3">
+<div class="carousel-item-inner">
+<div id="wb_welcome-text6">
+<p style="font-family:Open Sans;font-size:27px;line-height:38.5px;font-weight:bold;"><span style="font-family:Calibri;font-size:32px;line-height:39px;">DJ RShah</span></p>
+</div>
+<div id="wb_welcome-text5">
+<p>Bringing the Beat to Life</p>
+</div>
+</div>
+</div>
+</div>
+<a class="carousel-item-start carousel-control" href="#welcome-carousel" role="button" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span>
+</a>
+<a class="carousel-item-end carousel-control" href="#welcome-carousel" role="button" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div id="wb_layoutGridBand">
+<div id="layoutGridBand-overlay"></div>
+<div id="layoutGridBand">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_servicesText1">
+<p>love music!</p>
+</div>
+<div id="wb_servicesHeading" style="display:block;width:100%;z-index:15;">
+<h2 id="servicesHeading">SERVICES</h2>
+</div>
+<div id="wb_servicesText2">
+<p>As a professional DJ, I bring the perfect vibe to any event. Whether it’s a wedding, club night, festival, or corporate gathering, I curate music that fits the atmosphere and keeps the energy flowing. From romantic wedding moments to high-energy dance floors, I create unforgettable experiences tailored to each audience.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_layoutGridTour">
+<div id="layoutGridTour-overlay"></div>
+<div id="layoutGridTour">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_buySellHeading" style="display:block;width:100%;z-index:17;">
+<h2 id="buySellHeading">EVENTS</h2>
+</div>
+<div id="wb_buySellText">
+<span style="color:#FFFFFF;font-family:'Open Sans';font-size:15px;line-height:24px;">Make sure you do not miss any of our amazing shows!<br>Remember to book your tickets!</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_firstStepsLayoutGrid">
+<div id="firstStepsLayoutGrid-overlay"></div>
+<div id="firstStepsLayoutGrid">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Card57" style="display:flex;width:100%;z-index:19;" class="card">
+<div id="Card57-card-body">
+<img id="Card57-card-item0" src="images/Green 3d Hawaiian Luau Party Poster - Made with PosterMyWall (3).jpg" width="1080" height="1080" alt="" title="">
+<div id="Card57-card-item1"><a href="https://www.tickettailor.com/events/azureskyinc/1635474">BUY TICKETS</a></div>
+<div id="Card57-card-item2">Persian Pier Party</div>
+<div id="Card57-card-item3">May 31, 2025</div>
+<div id="Card57-card-item4">Wear your white clothes and join us for an unforgettable evening at the Persian Pier Party!</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Card4" style="display:flex;width:100%;z-index:20;" class="card">
+<div id="Card4-card-body">
+<img id="Card4-card-item0" src="images/Green 3d Hawaiian Luau Party Poster - Made with PosterMyWall (3).jpg" width="1080" height="1080" alt="" title="">
+<div id="Card4-card-item1"><a href="http://www.wysiwygwebbuilder.com/purchase.html">BUY TICKETS</a></div>
+<div id="Card4-card-item2">Persian Pier Party</div>
+<div id="Card4-card-item3">May 31, 2025</div>
+<div id="Card4-card-item4">ParsiHub Link<br>Same Event<br>Cheaper service fee</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="col-3-padding">
+<div id="wb_Card5" style="display:flex;width:100%;z-index:21;" class="card">
+<div id="Card5-card-body">
+<img id="Card5-card-item0" src="images/london-bridge.jpg" width="500" height="375" alt="" title="">
+<div id="Card5-card-item1"><a href="http://www.wysiwygwebbuilder.com/purchase.html">BUY TICKETS</a></div>
+<div id="Card5-card-item2">Coming Soon</div>
+<div id="Card5-card-item3">TBD</div>
+<div id="Card5-card-item4">Some thing Exciting</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_contact">
+<div id="contact-overlay"></div>
+<div id="contact">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Heading2" style="display:block;width:100%;z-index:22;">
+<h2 id="Heading2">CONTACT</h2>
+</div>
+<div id="wb_linksText">
+<p>Love the fans!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_links">
+<div id="links">
+<div class="row">
+<div class="col-1">
+<div id="wb_linksCard1" style="display:flex;width:100%;z-index:24;" class="card">
+<div id="linksCard1-card-body">
+<div id="linksCard1-card-item0">DJ RShah</div>
+<div id="linksCard1-card-item1"></div>
+<div id="linksCard1-card-item2">Phone: +1 248 828 6497</div>
+<div id="linksCard1-card-item3">Email: info@DJRShah.com</div>
+<div id="linksCard1-card-item4"><a href="https://www.instagram.com/djrshah/?next=%2F" title="Instagram"><i class="fa fa-instagram"></i></a></div>
+<div id="linksCard1-card-item5"><a href="http://" title="Facebook"><i class="fa fa-facebook"></i></a></div>
+<div id="linksCard1-card-item6"><a href="https://wa.me/qr/YLJ7PZKWDD72A1" title="WhatsApp"><i class="fa fa-whatsapp"></i></a></div>
+<div id="linksCard1-card-item7"><a href="https://t.me/DJRSHAH"><i class="fa fa-telegram"></i></a></div>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_linksHeading" style="display:block;width:100%;z-index:25;">
+<h3 id="linksHeading">Drop a note</h3>
+</div>
+<div id="wb_Editbox1" style="display:block;width:100%;height:44px;z-index:26;">
+<input type="text" id="Editbox1" style="" name="name" value="" spellcheck="false" placeholder="Name">
+<label id="Editbox1-label" for="Editbox1">Name</label>
+</div>
+<div id="wb_linksEmail" style="display:block;width:100%;height:44px;z-index:27;">
+<input type="text" id="linksEmail" style="" name="email" value="" spellcheck="false" placeholder="Email address">
+<label id="linksEmail-label" for="linksEmail">Email address</label>
+</div>
+<div id="wb_TextArea1" style="display:block;width:100%;height:98px;z-index:28;">
+<textarea name="comment" id="TextArea1" style="" rows="4" cols="84" spellcheck="false" placeholder="Comment"></textarea>
+<label id="TextArea1-label" for="TextArea1">Comment</label>
+</div>
+<input type="submit" id="linksButton" name="" value="Send" style="display:inline-block;width:96px;height:28px;z-index:29;">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_footer">
+<div id="footer">
+<div class="row">
+<div class="col-1">
+<div id="wb_footerText">
+<p>Copyright © 2025&nbsp;DJ Rshah.&nbsp; </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="upStickyLayer" style="position:fixed;text-align:left;left:auto;right:25px;top:auto;bottom:25px;width:50px;height:50px;z-index:40;">
+<div id="wb_upIcon" style="position:absolute;left:9px;top:8px;width:24px;height:24px;text-align:center;z-index:31;">
+<a href="#welcome-carousel"><div id="upIcon"><i class="fa fa-arrow-up"></i></div></a></div>
+</div>
+
+</body>
+</html>

@@ -1469,15 +1469,15 @@ a:hover
    padding: 0 0 10px 0;
    margin: 0;
    text-align: center;
-   animation: slide-left-in 1000ms linear 300ms 1 normal both;
+   animation: swash-in 1000ms linear 300ms 1 normal both;
 }
 #wb_welcome-text5
 {
    color: #FFFFFF;
    font-family: "Open Sans";
    font-weight: 400;
-   font-size: 16px;
-   line-height: 23px;
+   font-size: 29px;
+   line-height: 42.5px;
 }
 #wb_welcome-text5 p, #wb_welcome-text5 ul
 {
@@ -1500,15 +1500,15 @@ a:hover
    padding: 0 0 10px 0;
    margin: 0;
    text-align: center;
-   animation: slide-right-in 1000ms linear 1000ms 1 normal both;
+   animation: swash-in 1000ms linear 1000ms 1 normal both;
 }
 #wb_welcome-text6
 {
    color: #FFFFFF;
    font-family: Calibri;
    font-weight: bold;
-   font-size: 32px;
-   line-height: 39px;
+   font-size: 96px;
+   line-height: 117.5px;
 }
 #wb_welcome-text6 p, #wb_welcome-text6 ul
 {
@@ -1531,15 +1531,15 @@ a:hover
    padding: 0;
    margin: 0;
    text-align: center;
-   animation: slide-left-in 1000ms linear 300ms 1 normal both;
+   animation: swash-in 1000ms linear 300ms 1 normal both;
 }
 #wb_welcome-text1
 {
    color: #FFFFFF;
    font-family: "Open Sans";
    font-weight: 400;
-   font-size: 16px;
-   line-height: 23px;
+   font-size: 29px;
+   line-height: 42.5px;
 }
 #wb_welcome-text1 p, #wb_welcome-text1 ul
 {
@@ -1569,8 +1569,8 @@ a:hover
    color: #FFFFFF;
    font-family: Calibri;
    font-weight: bold;
-   font-size: 32px;
-   line-height: 39px;
+   font-size: 96px;
+   line-height: 117.5px;
 }
 #wb_welcome-text2 p, #wb_welcome-text2 ul
 {
@@ -1593,15 +1593,15 @@ a:hover
    padding: 0 0 10px 0;
    margin: 0;
    text-align: center;
-   animation: slide-left-in 1000ms linear 300ms 1 normal both;
+   animation: swash-in 1000ms linear 300ms 1 normal both;
 }
 #wb_welcome-text3
 {
    color: #FFFFFF;
    font-family: "Open Sans";
    font-weight: 400;
-   font-size: 16px;
-   line-height: 23px;
+   font-size: 29px;
+   line-height: 42.5px;
 }
 #wb_welcome-text3 p, #wb_welcome-text3 ul
 {
@@ -1624,15 +1624,15 @@ a:hover
    padding: 0 0 10px 0;
    margin: 0;
    text-align: center;
-   animation: slide-right-in 1000ms linear 1000ms 1 normal both;
+   animation: swash-in 1000ms linear 1000ms 1 normal both;
 }
 #wb_welcome-text4
 {
    color: #FFFFFF;
    font-family: Calibri;
    font-weight: bold;
-   font-size: 32px;
-   line-height: 39px;
+   font-size: 96px;
+   line-height: 117.5px;
 }
 #wb_welcome-text4 p, #wb_welcome-text4 ul
 {
